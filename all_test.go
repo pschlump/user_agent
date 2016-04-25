@@ -1,4 +1,5 @@
 // Copyright (C) 2012-2016 Miquel Sabaté Solà <mikisabate@gmail.com>
+// Copyright (C) 2016 Philip Schlump <pschlump@gmail.com>
 // This file is licensed under the MIT license.
 // See the LICENSE file.
 
@@ -20,6 +21,11 @@ var uastrings = []struct {
 	{
 		title:    "GoogleBot",
 		ua:       "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+		expected: "Mozilla:5.0 Browser:Googlebot-2.1 Bot:true Mobile:false",
+	},
+	{
+		title:    "GoogleBot",
+		ua:       "Mozilla/5.0 (compatible; Googlebot/2.1; +https://www.google.com/bot.html)",
 		expected: "Mozilla:5.0 Browser:Googlebot-2.1 Bot:true Mobile:false",
 	},
 	{

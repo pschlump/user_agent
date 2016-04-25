@@ -1,4 +1,5 @@
 // Copyright (C) 2014-2016 Miquel Sabaté Solà <mikisabate@gmail.com>
+// Copyright (C) 2016 Philip Schlump <pschlump@gmail.com>
 // This file is licensed under the MIT license.
 // See the LICENSE file.
 
@@ -9,7 +10,7 @@ import (
 	"strings"
 )
 
-var botFromSiteRegexp = regexp.MustCompile("http://.+\\.\\w+")
+var botFromSiteRegexp = regexp.MustCompile("http[s]?://.+\\.\\w+")
 
 // Get the name of the bot from the website that may be in the given comment. If
 // there is no website in the comment, then an empty string is returned.
