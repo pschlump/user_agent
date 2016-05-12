@@ -2,6 +2,9 @@
 # UserAgent [![Build Status](https://travis-ci.org/mssola/user_agent.png?branch=master)](https://travis-ci.org/mssola/user_agent) [![GoDoc](https://godoc.org/github.com/mssola/user_agent?status.png)](http://godoc.org/github.com/mssola/user_agent)
 
 
+[![license](http://img.shields.io/badge/license-MIT-red.svg?style=flat)](https://raw.githubusercontent.com/pschlump/Go-FTL/master/LICENSE)
+
+
 UserAgent is a Go library that parses HTTP User Agents.
 
 ## Usage
